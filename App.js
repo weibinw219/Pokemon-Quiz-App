@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
-import { StyleSheet, Text, View, ActivityIndicator, Button, Image } from 'react-native';
+import React, { Component } from 'react';
+import { StyleSheet, Text, View, ActivityIndicator, Button, Image, ImageBackground, Platform } from 'react-native';
 import pokeData from './pokeData.js'
 
-export default class App extends Component{
+export default class App extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.state = {
       isLoading: true,
@@ -14,7 +14,7 @@ export default class App extends Component{
   }
 
 
-  componentDidMount(){
+  componentDidMount() {
 
     this.setState({
       isLoading: false,
@@ -24,18 +24,18 @@ export default class App extends Component{
   }
 
 
-  generateRandNum(){
+  generateRandNum() {
     this.setState({
-      randomNum: Math.floor(Math.random() * (151-1)) + 1
+      randomNum: Math.floor(Math.random() * (151 - 1)) + 1
     })
   }
 
 
-  render(){
+  render() {
 
 
 
-    if(this.state.isLoading){
+    if (this.state.isLoading) {
       return (
         <View style={styles.loader}>
           <ActivityIndicator size="large" color="#0c9" />
@@ -44,12 +44,26 @@ export default class App extends Component{
     }
     return (
 
-      <View style={styles.container}>
-        <Image source={this.state.dataSource[this.state.randomNum].picture}/>
-        <Text>{this.state.dataSource[this.state.randomNum].name.japanese}</Text>
 
-        <Button title='Click Me' onPress={()=> this.generateRandNum()}/>
+
+      <View style={styles.container}>
+        <View style={styles.backgroundStyle}>
+        </View>
+        <View style={styles.shadow}>
+          <Image style={styles.image} source={this.state.dataSource[this.state.randomNum].picture} />
+
+        </View>
+
+
+        <Text style={styles.text}>{this.state.dataSource[this.state.randomNum].name.japanese}</Text>
+        <Button title='点我' onPress={() => this.generateRandNum()} />
       </View>
+
+
+
+
+
+
 
     )
   }
@@ -62,14 +76,74 @@ export default class App extends Component{
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "white",
+    marginTop: 200,
     alignItems: 'center',
-    justifyContent: 'center',
+    
   },
   loader: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#fff"
+  },
+  image: {
+
+
+
+
+
+
+    height: 200,
+    width: 200,
+
+  },
+  text: {
+    fontFamily: Platform.OS === "ios" ? "Apple Color Emoji" : "Roboto",
+    margin: 25,
+    fontSize: 30,
+    color: "black",
+    fontWeight: "800"
+
+  },
+  backgroundImage: {
+    width: '100%',
+    height: '100%'
+  },
+
+  shadow: {
+
+
+    width: 350,
+    height: 300,
+
+
+    alignItems: "center",
+    justifyContent: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.36,
+    shadowRadius: 6.68,
+  },
+
+
+  backgroundStyle: {
+    borderRadius: 25,
+    position: "absolute",
+    
+    borderTopColor: "blue",
+    borderTopWidth: 300,
+    borderRightWidth: 350,
+    borderRightColor: 'green',
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.36,
+    shadowRadius: 6.68,
   }
 });
