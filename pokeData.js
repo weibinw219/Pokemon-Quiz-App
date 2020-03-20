@@ -17,7 +17,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/001.png')
   },
   {
     "id": 2,
@@ -38,7 +39,8 @@ const pokeData = [{
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/002.png')
   },
   {
     "id": 3,
@@ -59,7 +61,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/003.png')
   },
   {
     "id": 4,
@@ -79,7 +82,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 50,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/004.png')
   },
   {
     "id": 5,
@@ -99,7 +103,8 @@ const pokeData = [{
       "Sp. Attack": 80,
       "Sp. Defense": 65,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/005.png')
   },
   {
     "id": 6,
@@ -120,7 +125,8 @@ const pokeData = [{
       "Sp. Attack": 109,
       "Sp. Defense": 85,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/006.png')
   },
   {
     "id": 7,
@@ -140,7 +146,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 64,
       "Speed": 43
-    }
+    },
+    "picture": require('./assets/pokemonPics/007.png')
   },
   {
     "id": 8,
@@ -160,7 +167,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 58
-    }
+    },
+    "picture": require('./assets/pokemonPics/008.png')
   },
   {
     "id": 9,
@@ -180,7 +188,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 105,
       "Speed": 78
-    }
+    },
+    "picture": require('./assets/pokemonPics/009.png')
   },
   {
     "id": 10,
@@ -200,7 +209,8 @@ const pokeData = [{
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/010.png')
   },
   {
     "id": 11,
@@ -220,7 +230,8 @@ const pokeData = [{
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/011.png')
   },
   {
     "id": 12,
@@ -242,6 +253,8 @@ const pokeData = [{
       "Sp. Defense": 80,
       "Speed": 70
     }
+    ,
+    "picture": require('./assets/pokemonPics/012.png')
   },
   {
     "id": 13,
@@ -262,7 +275,8 @@ const pokeData = [{
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/013.png')
   },
   {
     "id": 14,
@@ -283,7 +297,8 @@ const pokeData = [{
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/014.png')
   },
   {
     "id": 15,
@@ -304,7 +319,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 80,
       "Speed": 75
-    }
+    },
+    "picture": require('./assets/pokemonPics/015.png')
   },
   {
     "id": 16,
@@ -325,7 +341,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 56
-    }
+    },
+    "picture": require('./assets/pokemonPics/016.png')
   },
   {
     "id": 17,
@@ -346,7 +363,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 71
-    }
+    },
+    "picture": require('./assets/pokemonPics/017.png')
   },
   {
     "id": 18,
@@ -367,7 +385,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 101
-    }
+    },
+    "picture": require('./assets/pokemonPics/018.png')
   },
   {
     "id": 19,
@@ -387,7 +406,8 @@ const pokeData = [{
       "Sp. Attack": 25,
       "Sp. Defense": 35,
       "Speed": 72
-    }
+    },
+    "picture": require('./assets/pokemonPics/019.png')
   },
   {
     "id": 20,
@@ -407,7 +427,9 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 97
-    }
+    },
+    "picture": require('./assets/pokemonPics/020.png')
+    
   },
   {
     "id": 21,
@@ -428,7 +450,9 @@ const pokeData = [{
       "Sp. Attack": 31,
       "Sp. Defense": 31,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/021.png')
+    
   },
   {
     "id": 22,
@@ -449,7 +473,8 @@ const pokeData = [{
       "Sp. Attack": 61,
       "Sp. Defense": 61,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/022.png')
   },
   {
     "id": 23,
@@ -469,7 +494,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 54,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/023.png')
   },
   {
     "id": 24,
@@ -489,7 +515,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 79,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/024.png')
   },
   {
     "id": 25,
@@ -509,7 +536,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/025.png')
   },
   {
     "id": 26,
@@ -529,7 +557,8 @@ const pokeData = [{
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 110
-    }
+    },
+    "picture": require('./assets/pokemonPics/026.png')
   },
   {
     "id": 27,
@@ -549,7 +578,8 @@ const pokeData = [{
       "Sp. Attack": 20,
       "Sp. Defense": 30,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/027.png')
   },
   {
     "id": 28,
@@ -569,7 +599,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/028.png')
   },
   {
     "id": 29,
@@ -589,7 +620,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 41
-    }
+    },
+    "picture": require('./assets/pokemonPics/029.png')
   },
   {
     "id": 30,
@@ -609,7 +641,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 56
-    }
+    },
+    "picture": require('./assets/pokemonPics/030.png')
   },
   {
     "id": 31,
@@ -630,7 +663,8 @@ const pokeData = [{
       "Sp. Attack": 75,
       "Sp. Defense": 85,
       "Speed": 76
-    }
+    },
+    "picture": require('./assets/pokemonPics/031.png')
   },
   {
     "id": 32,
@@ -650,7 +684,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/032.png')
   },
   {
     "id": 33,
@@ -670,7 +705,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/033.png')
   },
   {
     "id": 34,
@@ -691,7 +727,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/034.png')
   },
   {
     "id": 35,
@@ -711,7 +748,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 65,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/035.png')
   },
   {
     "id": 36,
@@ -731,7 +769,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 90,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/036.png')
   },
   {
     "id": 37,
@@ -751,7 +790,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 65,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/037.png')
   },
   {
     "id": 38,
@@ -771,7 +811,8 @@ const pokeData = [{
       "Sp. Attack": 81,
       "Sp. Defense": 100,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/038.png')
   },
   {
     "id": 39,
@@ -792,7 +833,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 20
-    }
+    },
+    "picture": require('./assets/pokemonPics/039.png')
   },
   {
     "id": 40,
@@ -813,7 +855,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 50,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/040.png')
   },
   {
     "id": 41,
@@ -834,7 +877,8 @@ const pokeData = [{
       "Sp. Attack": 30,
       "Sp. Defense": 40,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/041.png')
   },
   {
     "id": 42,
@@ -855,7 +899,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 75,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/042.png')
   },
   {
     "id": 43,
@@ -876,7 +921,8 @@ const pokeData = [{
       "Sp. Attack": 75,
       "Sp. Defense": 65,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/043.png')
   },
   {
     "id": 44,
@@ -897,7 +943,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/044.png')
   },
   {
     "id": 45,
@@ -918,7 +965,8 @@ const pokeData = [{
       "Sp. Attack": 110,
       "Sp. Defense": 90,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/045.png')
   },
   {
     "id": 46,
@@ -939,7 +987,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 25
-    }
+    },
+    "picture": require('./assets/pokemonPics/046.png')
   },
   {
     "id": 47,
@@ -960,7 +1009,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 80,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/047.png')
   },
   {
     "id": 48,
@@ -981,7 +1031,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 55,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/048.png')
   },
   {
     "id": 49,
@@ -1002,7 +1053,8 @@ const pokeData = [{
       "Sp. Attack": 90,
       "Sp. Defense": 75,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/049.png')
   },
   {
     "id": 50,
@@ -1022,7 +1074,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 95
-    }
+    },
+    "picture": require('./assets/pokemonPics/050.png')
   },
   {
     "id": 51,
@@ -1042,7 +1095,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 120
-    }
+    },
+    "picture": require('./assets/pokemonPics/051.png')
   },
   {
     "id": 52,
@@ -1062,7 +1116,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/052.png')
   },
   {
     "id": 53,
@@ -1082,7 +1137,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 115
-    }
+    },
+    "picture": require('./assets/pokemonPics/053.png')
   },
   {
     "id": 54,
@@ -1102,7 +1158,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 50,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/054.png')
   },
   {
     "id": 55,
@@ -1122,7 +1179,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 80,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/055.png')
   },
   {
     "id": 56,
@@ -1142,7 +1200,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/056.png')
   },
   {
     "id": 57,
@@ -1162,7 +1221,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 70,
       "Speed": 95
-    }
+    },
+    "picture": require('./assets/pokemonPics/057.png')
   },
   {
     "id": 58,
@@ -1182,7 +1242,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 50,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/058.png')
   },
   {
     "id": 59,
@@ -1202,7 +1263,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 95
-    }
+    },
+    "picture": require('./assets/pokemonPics/059.png')
   },
   {
     "id": 60,
@@ -1222,7 +1284,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/060.png')
   },
   {
     "id": 61,
@@ -1242,7 +1305,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/061.png')
   },
   {
     "id": 62,
@@ -1263,7 +1327,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 90,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/062.png')
   },
   {
     "id": 63,
@@ -1283,7 +1348,8 @@ const pokeData = [{
       "Sp. Attack": 105,
       "Sp. Defense": 55,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/063.png')
   },
   {
     "id": 64,
@@ -1303,7 +1369,8 @@ const pokeData = [{
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 105
-    }
+    },
+    "picture": require('./assets/pokemonPics/064.png')
   },
   {
     "id": 65,
@@ -1323,7 +1390,8 @@ const pokeData = [{
       "Sp. Attack": 135,
       "Sp. Defense": 95,
       "Speed": 120
-    }
+    },
+    "picture": require('./assets/pokemonPics/065.png')
   },
   {
     "id": 66,
@@ -1343,7 +1411,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/066.png')
   },
   {
     "id": 67,
@@ -1363,7 +1432,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 60,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/067.png')
   },
   {
     "id": 68,
@@ -1383,7 +1453,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 85,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/068.png')
   },
   {
     "id": 69,
@@ -1404,7 +1475,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 30,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/069.png')
   },
   {
     "id": 70,
@@ -1425,7 +1497,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/070.png')
   },
   {
     "id": 71,
@@ -1446,7 +1519,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/071.png')
   },
   {
     "id": 72,
@@ -1467,7 +1541,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 100,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/072.png')
   },
   {
     "id": 73,
@@ -1488,7 +1563,8 @@ const pokeData = [{
       "Sp. Attack": 80,
       "Sp. Defense": 120,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/073.png')
   },
   {
     "id": 74,
@@ -1509,7 +1585,8 @@ const pokeData = [{
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 20
-    }
+    },
+    "picture": require('./assets/pokemonPics/074.png')
   },
   {
     "id": 75,
@@ -1530,7 +1607,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/075.png')
   },
   {
     "id": 76,
@@ -1551,7 +1629,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 65,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/076.png')
   },
   {
     "id": 77,
@@ -1571,7 +1650,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/077.png')
   },
   {
     "id": 78,
@@ -1591,7 +1671,8 @@ const pokeData = [{
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 105
-    }
+    },
+    "picture": require('./assets/pokemonPics/078.png')
   },
   {
     "id": 79,
@@ -1612,7 +1693,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 15
-    }
+    },
+    "picture": require('./assets/pokemonPics/079.png')
   },
   {
     "id": 80,
@@ -1633,7 +1715,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/080.png')
   },
   {
     "id": 81,
@@ -1654,7 +1737,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 55,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/081.png')
   },
   {
     "id": 82,
@@ -1675,7 +1759,8 @@ const pokeData = [{
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/082.png')
   },
   {
     "id": 83,
@@ -1696,7 +1781,8 @@ const pokeData = [{
       "Sp. Attack": 58,
       "Sp. Defense": 62,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/083.png')
   },
   {
     "id": 84,
@@ -1717,7 +1803,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 75
-    }
+    },
+    "picture": require('./assets/pokemonPics/084.png')
   },
   {
     "id": 85,
@@ -1738,7 +1825,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 60,
       "Speed": 110
-    }
+    },
+    "picture": require('./assets/pokemonPics/085.png')
   },
   {
     "id": 86,
@@ -1758,7 +1846,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 70,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/086.png')
   },
   {
     "id": 87,
@@ -1779,7 +1868,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 95,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/087.png')
   },
   {
     "id": 88,
@@ -1799,7 +1889,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 25
-    }
+    },
+    "picture": require('./assets/pokemonPics/088.png')
   },
   {
     "id": 89,
@@ -1819,7 +1910,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 100,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/089.png')
   },
   {
     "id": 90,
@@ -1839,7 +1931,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/090.png')
   },
   {
     "id": 91,
@@ -1860,7 +1953,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/091.png')
   },
   {
     "id": 92,
@@ -1881,7 +1975,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 35,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/092.png')
   },
   {
     "id": 93,
@@ -1902,7 +1997,8 @@ const pokeData = [{
       "Sp. Attack": 115,
       "Sp. Defense": 55,
       "Speed": 95
-    }
+    },
+    "picture": require('./assets/pokemonPics/093.png')
   },
   {
     "id": 94,
@@ -1923,7 +2019,8 @@ const pokeData = [{
       "Sp. Attack": 130,
       "Sp. Defense": 75,
       "Speed": 110
-    }
+    },
+    "picture": require('./assets/pokemonPics/094.png')
   },
   {
     "id": 95,
@@ -1944,7 +2041,8 @@ const pokeData = [{
       "Sp. Attack": 30,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/095.png')
   },
   {
     "id": 96,
@@ -1964,7 +2062,8 @@ const pokeData = [{
       "Sp. Attack": 43,
       "Sp. Defense": 90,
       "Speed": 42
-    }
+    },
+    "picture": require('./assets/pokemonPics/096.png')
   },
   {
     "id": 97,
@@ -1984,7 +2083,8 @@ const pokeData = [{
       "Sp. Attack": 73,
       "Sp. Defense": 115,
       "Speed": 67
-    }
+    },
+    "picture": require('./assets/pokemonPics/097.png')
   },
   {
     "id": 98,
@@ -2004,7 +2104,8 @@ const pokeData = [{
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/098.png')
   },
   {
     "id": 99,
@@ -2024,7 +2125,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 75
-    }
+    },
+    "picture": require('./assets/pokemonPics/099.png')
   },
   {
     "id": 100,
@@ -2044,7 +2146,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/100.png')
   },
   {
     "id": 101,
@@ -2064,7 +2167,8 @@ const pokeData = [{
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 150
-    }
+    },
+    "picture": require('./assets/pokemonPics/101.png')
   },
   {
     "id": 102,
@@ -2085,7 +2189,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/102.png')
   },
   {
     "id": 103,
@@ -2106,7 +2211,8 @@ const pokeData = [{
       "Sp. Attack": 125,
       "Sp. Defense": 75,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/103.png')
   },
   {
     "id": 104,
@@ -2126,7 +2232,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/104.png')
   },
   {
     "id": 105,
@@ -2146,7 +2253,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 80,
       "Speed": 45
-    }
+    },
+    "picture": require('./assets/pokemonPics/105.png')
   },
   {
     "id": 106,
@@ -2166,7 +2274,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 87
-    }
+    },
+    "picture": require('./assets/pokemonPics/106.png')
   },
   {
     "id": 107,
@@ -2186,7 +2295,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 76
-    }
+    },
+    "picture": require('./assets/pokemonPics/107.png')
   },
   {
     "id": 108,
@@ -2206,7 +2316,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/108.png')
   },
   {
     "id": 109,
@@ -2226,7 +2337,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/109.png')
   },
   {
     "id": 110,
@@ -2246,7 +2358,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 70,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/110.png')
   },
   {
     "id": 111,
@@ -2267,7 +2380,8 @@ const pokeData = [{
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 25
-    }
+    },
+    "picture": require('./assets/pokemonPics/111.png')
   },
   {
     "id": 112,
@@ -2288,7 +2402,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/112.png')
   },
   {
     "id": 113,
@@ -2308,7 +2423,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 105,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/113.png')
   },
   {
     "id": 114,
@@ -2328,7 +2444,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 40,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/114.png')
   },
   {
     "id": 115,
@@ -2348,7 +2465,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 80,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/115.png')
   },
   {
     "id": 116,
@@ -2368,7 +2486,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 25,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/116.png')
   },
   {
     "id": 117,
@@ -2388,7 +2507,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 45,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/117.png')
   },
   {
     "id": 118,
@@ -2408,7 +2528,8 @@ const pokeData = [{
       "Sp. Attack": 35,
       "Sp. Defense": 50,
       "Speed": 63
-    }
+    },
+    "picture": require('./assets/pokemonPics/118.png')
   },
   {
     "id": 119,
@@ -2428,7 +2549,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 68
-    }
+    },
+    "picture": require('./assets/pokemonPics/119.png')
   },
   {
     "id": 120,
@@ -2448,7 +2570,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 55,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/120.png')
   },
   {
     "id": 121,
@@ -2469,7 +2592,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 115
-    }
+    },
+    "picture": require('./assets/pokemonPics/121.png')
   },
   {
     "id": 122,
@@ -2490,7 +2614,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 120,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/122.png')
   },
   {
     "id": 123,
@@ -2511,7 +2636,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 80,
       "Speed": 105
-    }
+    },
+    "picture": require('./assets/pokemonPics/123.png')
   },
   {
     "id": 124,
@@ -2532,7 +2658,8 @@ const pokeData = [{
       "Sp. Attack": 115,
       "Sp. Defense": 95,
       "Speed": 95
-    }
+    },
+    "picture": require('./assets/pokemonPics/124.png')
   },
   {
     "id": 125,
@@ -2552,7 +2679,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 85,
       "Speed": 105
-    }
+    },
+    "picture": require('./assets/pokemonPics/125.png')
   },
   {
     "id": 126,
@@ -2572,7 +2700,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 93
-    }
+    },
+    "picture": require('./assets/pokemonPics/126.png')
   },
   {
     "id": 127,
@@ -2592,7 +2721,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 70,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/127.png')
   },
   {
     "id": 128,
@@ -2612,7 +2742,8 @@ const pokeData = [{
       "Sp. Attack": 40,
       "Sp. Defense": 70,
       "Speed": 110
-    }
+    },
+    "picture": require('./assets/pokemonPics/128.png')
   },
   {
     "id": 129,
@@ -2632,7 +2763,8 @@ const pokeData = [{
       "Sp. Attack": 15,
       "Sp. Defense": 20,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/129.png')
   },
   {
     "id": 130,
@@ -2653,7 +2785,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 100,
       "Speed": 81
-    }
+    },
+    "picture": require('./assets/pokemonPics/130.png')
   },
   {
     "id": 131,
@@ -2674,7 +2807,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 95,
       "Speed": 60
-    }
+    },
+    "picture": require('./assets/pokemonPics/131.png')
   },
   {
     "id": 132,
@@ -2694,7 +2828,8 @@ const pokeData = [{
       "Sp. Attack": 48,
       "Sp. Defense": 48,
       "Speed": 48
-    }
+    },
+    "picture": require('./assets/pokemonPics/132.png')
   },
   {
     "id": 133,
@@ -2714,7 +2849,8 @@ const pokeData = [{
       "Sp. Attack": 45,
       "Sp. Defense": 65,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/133.png')
   },
   {
     "id": 134,
@@ -2734,7 +2870,8 @@ const pokeData = [{
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/134.png')
   },
   {
     "id": 135,
@@ -2754,7 +2891,8 @@ const pokeData = [{
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 130
-    }
+    },
+    "picture": require('./assets/pokemonPics/135.png')
   },
   {
     "id": 136,
@@ -2774,7 +2912,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 110,
       "Speed": 65
-    }
+    },
+    "picture": require('./assets/pokemonPics/136.png')
   },
   {
     "id": 137,
@@ -2794,7 +2933,8 @@ const pokeData = [{
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    }
+    },
+    "picture": require('./assets/pokemonPics/137.png')
   },
   {
     "id": 138,
@@ -2815,7 +2955,8 @@ const pokeData = [{
       "Sp. Attack": 90,
       "Sp. Defense": 55,
       "Speed": 35
-    }
+    },
+    "picture": require('./assets/pokemonPics/138.png')
   },
   {
     "id": 139,
@@ -2836,7 +2977,8 @@ const pokeData = [{
       "Sp. Attack": 115,
       "Sp. Defense": 70,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/139.png')
   },
   {
     "id": 140,
@@ -2857,7 +2999,8 @@ const pokeData = [{
       "Sp. Attack": 55,
       "Sp. Defense": 45,
       "Speed": 55
-    }
+    },
+    "picture": require('./assets/pokemonPics/140.png')
   },
   {
     "id": 141,
@@ -2878,7 +3021,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 70,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/141.png')
   },
   {
     "id": 142,
@@ -2899,7 +3043,8 @@ const pokeData = [{
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 130
-    }
+    },
+    "picture": require('./assets/pokemonPics/142.png')
   },
   {
     "id": 143,
@@ -2919,7 +3064,8 @@ const pokeData = [{
       "Sp. Attack": 65,
       "Sp. Defense": 110,
       "Speed": 30
-    }
+    },
+    "picture": require('./assets/pokemonPics/143.png')
   },
   {
     "id": 144,
@@ -2940,7 +3086,8 @@ const pokeData = [{
       "Sp. Attack": 95,
       "Sp. Defense": 125,
       "Speed": 85
-    }
+    },
+    "picture": require('./assets/pokemonPics/144.png')
   },
   {
     "id": 145,
@@ -2961,7 +3108,8 @@ const pokeData = [{
       "Sp. Attack": 125,
       "Sp. Defense": 90,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/145.png')
   },
   {
     "id": 146,
@@ -2982,7 +3130,8 @@ const pokeData = [{
       "Sp. Attack": 125,
       "Sp. Defense": 85,
       "Speed": 90
-    }
+    },
+    "picture": require('./assets/pokemonPics/146.png')
   },
   {
     "id": 147,
@@ -3002,7 +3151,8 @@ const pokeData = [{
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 50
-    }
+    },
+    "picture": require('./assets/pokemonPics/147.png')
   },
   {
     "id": 148,
@@ -3022,7 +3172,8 @@ const pokeData = [{
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "picture": require('./assets/pokemonPics/148.png')
   },
   {
     "id": 149,
@@ -3043,7 +3194,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    }
+    },
+    "picture": require('./assets/pokemonPics/149.png')
   },
   {
     "id": 150,
@@ -3063,7 +3215,8 @@ const pokeData = [{
       "Sp. Attack": 154,
       "Sp. Defense": 90,
       "Speed": 130
-    }
+    },
+    "picture": require('./assets/pokemonPics/150.png')
   },
   {
     "id": 151,
@@ -3083,7 +3236,8 @@ const pokeData = [{
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 100
-    }
+    },
+    "picture": require('./assets/pokemonPics/151.png')
   }
 ]
 
