@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator, Button } from 'react-native';
 import pokeData from './pokeData.js'
 
 export default class App extends Component{
@@ -8,7 +8,8 @@ export default class App extends Component{
     super();
     this.state = {
       isLoading: true,
-      dataSource: null
+      dataSource: null,
+      randomNum: 0
     }
   }
 
@@ -17,7 +18,15 @@ export default class App extends Component{
 
     this.setState({
       isLoading: false,
-      dataSource: pokeData
+      dataSource: pokeData,
+      randomNum: 0
+    })
+  }
+
+
+  generateRandNum(){
+    this.setState({
+      randomNum: Math.floor(Math.random() * (151-1)) + 1
     })
   }
 
@@ -35,7 +44,8 @@ export default class App extends Component{
     return (
 
       <View style={styles.container}>
-        <Text>Default Page</Text>
+        <Text>{this.state.dataSource[this.state.randomNum].name.japanese}</Text>
+        <Button title='Click Me' onPress={()=> this.generateRandNum()}/>
       </View>
 
     )
