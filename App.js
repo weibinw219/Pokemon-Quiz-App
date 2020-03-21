@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, ActivityIndicator, Button, Image, ImageBackground, Platform } from 'react-native';
+import TypeHandler from './components/TypeHandler'
 import pokeData from './pokeData.js'
-
+import types from './types'
 export default class App extends Component {
 
   constructor() {
@@ -9,7 +10,9 @@ export default class App extends Component {
     this.state = {
       isLoading: true,
       dataSource: null,
-      randomNum: 0
+      randomNum: 0,
+      color: "white",
+      color2: "white"
     }
   }
 
@@ -19,21 +22,49 @@ export default class App extends Component {
     this.setState({
       isLoading: false,
       dataSource: pokeData,
-      randomNum: 0
+      randomNum: 0,
+      color: "white",
+      color2: "white"
     })
   }
 
 
-  generateRandNum() {
+
+
+  changeColor(){
+    let randNUmmm = Math.floor(Math.random() * (151 - 1)) + 1;
+    let color11 = null;
+    let color22= null;
+    for (let i =0; i < types.length; i++){
+      if (this.state.dataSource[randNUmmm].type[0] === types[i].english ){
+        color11 = types[i].color;
+      }
+      if(this.state.dataSource[randNUmmm].type[1] === types[i].english){
+        color22 = types[i].color;
+      }else if (!this.state.dataSource[randNUmmm].type[1]){
+        color22 = color11;
+      }
+    }
+
+
     this.setState({
-      randomNum: Math.floor(Math.random() * (151 - 1)) + 1
+      randomNum: randNUmmm,
+      color: color11,
+      color2: color22
     })
+
+    
+    
+    
   }
+
+
 
 
   render() {
 
 
+    
 
     if (this.state.isLoading) {
       return (
@@ -42,21 +73,27 @@ export default class App extends Component {
         </View>
       )
     }
+
+
+    
+
+
+
     return (
 
 
 
       <View style={styles.container}>
-        <View style={styles.backgroundStyle}>
-        </View>
+      <View style={[styles.backgroundStyle, {borderTopColor:this.state.color}, {borderRightColor: this.state.color2}]}>
+      </View>
         <View style={styles.shadow}>
           <Image style={styles.image} source={this.state.dataSource[this.state.randomNum].picture} />
 
         </View>
 
 
-        <Text style={styles.text}>{this.state.dataSource[this.state.randomNum].name.japanese}</Text>
-        <Button title='点我' onPress={() => this.generateRandNum()} />
+        <Text style={styles.text}>{this.state.dataSource[this.state.randomNum].name.chinese}</Text>
+        <Button title='点我' onPress={() => this.changeColor()}/>
       </View>
 
 
@@ -128,16 +165,15 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.36,
     shadowRadius: 6.68,
   },
-
-
   backgroundStyle: {
     borderRadius: 25,
     position: "absolute",
     
     borderTopColor: "blue",
+    borderRightColor: 'green',
     borderTopWidth: 300,
     borderRightWidth: 350,
-    borderRightColor: 'green',
+    
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
